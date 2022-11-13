@@ -23,7 +23,7 @@ class Module
 };
 
 
-// Wrapper for the functions to use in python
+// Wrap the functions into C. Required for ctypes module in Python
 extern "C" {
   Module* Module_new(){ return new Module(); }
   void Module_del(Module* object){ delete object; }
