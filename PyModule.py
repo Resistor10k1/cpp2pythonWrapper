@@ -25,3 +25,5 @@ class PyModule(object):
 
     def getVariable(self):
         return lib.Module_getVar(self.obj)
+    
+

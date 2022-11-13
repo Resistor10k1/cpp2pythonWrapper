@@ -5,8 +5,9 @@
 #
 CC        = g++
 LINK      = g++
+
 #Can be used to tell the compiler where also to look for libraries
-#CUSTOMPATH = -I/home/user/workspace/somePath/somePath
+#CUSTOMPATH = -I/home/someuser/workspace/somePath/somePath
 CFLAGS    = -c -fPIC -Wall #$(CUSTOMPATH)
 LFLAGS    = -shared -Wl,-soname,$(LIB)
 

@@ -19,7 +19,7 @@ Module::~Module()
 
 void Module::print(void)
 {
-  std::cout << "Hello form Module!" << std::endl;
+  std::cout << "Hello from Module!" << std::endl;
 }
 
 void Module::setVar(int x)

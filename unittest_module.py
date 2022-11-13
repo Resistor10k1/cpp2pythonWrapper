@@ -7,7 +7,7 @@ from PyModule import PyModule
 
 
 if __name__ == "__main__":
-    print("*** Start Unit-Test of the Module class ***")
+    print("*** Start unit test of the Module class ***")
 
     f = PyModule()
     f.printMsg()
