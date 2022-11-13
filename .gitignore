@@ -3,3 +3,6 @@
 
 # ignore C++ object files
 *.o
+
+# ignore python cache
+__pycache__/
