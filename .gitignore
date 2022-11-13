@@ -1,0 +1,5 @@
+# ignore dynamic libraries
+*.so
+
+# ignore C++ object files
+*.o
