@@ -2,6 +2,10 @@
 # Author: Andri Trottmann
 # Date: 13.11.22
 
+
+from PyModule import PyModule
+
+
 if __name__ == "__main__":
     print("*** Start Unit-Test of the Module class ***")
 
